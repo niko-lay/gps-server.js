@@ -5,7 +5,7 @@ var dateFormat = require('dateformat');
 function getLogger(module) {
     
     var path;
-    path = module.filename.split('\\').slice(-1).join('/'); // slice(-2) //отобразим метку с именем файла, который выводит сообщение
+    path = module.filename.split('\\').slice(-1).join('/'); // slice(-2) //РѕС‚РѕР±СЂР°Р·РёРј РјРµС‚РєСѓ СЃ РёРјРµРЅРµРј С„Р°Р№Р»Р°, РєРѕС‚РѕСЂС‹Р№ РІС‹РІРѕРґРёС‚ СЃРѕРѕР±С‰РµРЅРёРµ
     
         /*
     var upperCaseLevels = {

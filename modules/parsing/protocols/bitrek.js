@@ -1,4 +1,4 @@
-﻿var log = require('../../log')(module);
+var log = require('../../log')(module);
 
 
 var ACC = 1;
